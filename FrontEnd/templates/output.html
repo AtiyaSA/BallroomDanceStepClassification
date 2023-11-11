@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply pastel color palette */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #72c3dc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #89bdd3;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about, .models {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #72c3dc;
+}
+
+footer {
+    background-color: #72c3dc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+</head>
+<body>
+    <header>
+        <h1>Prediction Result</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/upload">Upload</a></li>
+			<li><a href="http://hasc.jp/HASC_BDD/index.html">Dataset</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!--<h1 align = "center">Done. <br> Thank you.</h2>-->
+		<section class="video-player" align = "center">
+            <h2>Resultant Video</h2>
+            <video width = 326 height = 324 controls>
+                <source src="../static/output_.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Ballroom Dance Step Recognition</p>
+    </footer>
+</body>
+</html>
