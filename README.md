@@ -39,6 +39,9 @@ The project is actively being developed to introduce real-time dance step recogn
 
 Special thanks to the creators of the Ballroom Dance Dataset for providing valuable data for the development and evaluation of this system.
 
+## Citation
+
+```
 @Inbook{Matsuyama2021,
 author="Matsuyama, Hitoshi
 and Hiroi, Kei
@@ -60,3 +63,4 @@ isbn="978-981-15-8944-7",
 doi="10.1007/978-981-15-8944-7_13",
 url="https://doi.org/10.1007/978-981-15-8944-7_13"
 }
+```
